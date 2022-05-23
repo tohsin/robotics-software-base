@@ -55,16 +55,24 @@ CMAKE_BINARY_DIR = /home/user/catkin_ws/build
 # The main recursive "all" target.
 all: gtest/all
 all: get_map_data/all
+all: get_pose/all
+all: initialize_particles/all
+all: my_amcl_launcher/all
 all: my_mapping_launcher/all
 all: provide_map/all
+all: send_goals/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
 preinstall: get_map_data/preinstall
+preinstall: get_pose/preinstall
+preinstall: initialize_particles/preinstall
+preinstall: my_amcl_launcher/preinstall
 preinstall: my_mapping_launcher/preinstall
 preinstall: provide_map/preinstall
+preinstall: send_goals/preinstall
 
 .PHONY : preinstall
 
@@ -76,8 +84,12 @@ clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
 clean: get_map_data/clean
+clean: get_pose/clean
+clean: initialize_particles/clean
+clean: my_amcl_launcher/clean
 clean: my_mapping_launcher/clean
 clean: provide_map/clean
+clean: send_goals/clean
 
 .PHONY : clean
 
@@ -98,6 +110,24 @@ get_map_data/preinstall:
 get_map_data/clean: get_map_data/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 .PHONY : get_map_data/clean
+
+#=============================================================================
+# Directory level rules for directory get_pose
+
+# Recursive "all" directory target.
+get_pose/all:
+
+.PHONY : get_pose/all
+
+# Recursive "preinstall" directory target.
+get_pose/preinstall:
+
+.PHONY : get_pose/preinstall
+
+# Recursive "clean" directory target.
+get_pose/clean:
+
+.PHONY : get_pose/clean
 
 #=============================================================================
 # Directory level rules for directory gtest
@@ -157,6 +187,42 @@ gtest/googletest/clean: gtest/googletest/CMakeFiles/gtest.dir/clean
 .PHONY : gtest/googletest/clean
 
 #=============================================================================
+# Directory level rules for directory initialize_particles
+
+# Recursive "all" directory target.
+initialize_particles/all:
+
+.PHONY : initialize_particles/all
+
+# Recursive "preinstall" directory target.
+initialize_particles/preinstall:
+
+.PHONY : initialize_particles/preinstall
+
+# Recursive "clean" directory target.
+initialize_particles/clean:
+
+.PHONY : initialize_particles/clean
+
+#=============================================================================
+# Directory level rules for directory my_amcl_launcher
+
+# Recursive "all" directory target.
+my_amcl_launcher/all:
+
+.PHONY : my_amcl_launcher/all
+
+# Recursive "preinstall" directory target.
+my_amcl_launcher/preinstall:
+
+.PHONY : my_amcl_launcher/preinstall
+
+# Recursive "clean" directory target.
+my_amcl_launcher/clean:
+
+.PHONY : my_amcl_launcher/clean
+
+#=============================================================================
 # Directory level rules for directory my_mapping_launcher
 
 # Recursive "all" directory target.
@@ -191,6 +257,24 @@ provide_map/preinstall:
 provide_map/clean:
 
 .PHONY : provide_map/clean
+
+#=============================================================================
+# Directory level rules for directory send_goals
+
+# Recursive "all" directory target.
+send_goals/all:
+
+.PHONY : send_goals/all
+
+# Recursive "preinstall" directory target.
+send_goals/preinstall:
+
+.PHONY : send_goals/preinstall
+
+# Recursive "clean" directory target.
+send_goals/clean:
+
+.PHONY : send_goals/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/doxygen.dir

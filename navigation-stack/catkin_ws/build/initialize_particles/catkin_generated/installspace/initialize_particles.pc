@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/install
+
+Name: initialize_particles
+Description: Description of initialize_particles
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="initialize_particles" type="square_move.py" name="move_husky_node" output="screen">
+        
+    </node>
+</launch>
+

@@ -389,6 +389,12 @@ get_map_data_BINARY_DIR:STATIC=/home/user/catkin_ws/build/get_map_data
 get_map_data_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/get_map_data
 
 //Value Computed by CMake
+get_pose_BINARY_DIR:STATIC=/home/user/catkin_ws/build/get_pose
+
+//Value Computed by CMake
+get_pose_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/get_pose
+
+//Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/user/catkin_ws/build/gtest/googlemock
 
 //Dependencies for the target
@@ -435,6 +441,18 @@ gtest_hide_internal_symbols:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
 //Value Computed by CMake
+initialize_particles_BINARY_DIR:STATIC=/home/user/catkin_ws/build/initialize_particles
+
+//Value Computed by CMake
+initialize_particles_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/initialize_particles
+
+//Value Computed by CMake
+my_amcl_launcher_BINARY_DIR:STATIC=/home/user/catkin_ws/build/my_amcl_launcher
+
+//Value Computed by CMake
+my_amcl_launcher_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/my_amcl_launcher
+
+//Value Computed by CMake
 my_mapping_launcher_BINARY_DIR:STATIC=/home/user/catkin_ws/build/my_mapping_launcher
 
 //Value Computed by CMake
@@ -448,6 +466,12 @@ provide_map_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/provide_map
 
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/noetic/share/rospy/cmake
+
+//Value Computed by CMake
+send_goals_BINARY_DIR:STATIC=/home/user/catkin_ws/build/send_goals
+
+//Value Computed by CMake
+send_goals_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/send_goals
 
 
 ########################
@@ -597,7 +621,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

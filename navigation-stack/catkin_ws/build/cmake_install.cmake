@@ -132,8 +132,12 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/user/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/user/catkin_ws/build/get_map_data/cmake_install.cmake")
+  include("/home/user/catkin_ws/build/get_pose/cmake_install.cmake")
+  include("/home/user/catkin_ws/build/initialize_particles/cmake_install.cmake")
+  include("/home/user/catkin_ws/build/my_amcl_launcher/cmake_install.cmake")
   include("/home/user/catkin_ws/build/my_mapping_launcher/cmake_install.cmake")
   include("/home/user/catkin_ws/build/provide_map/cmake_install.cmake")
+  include("/home/user/catkin_ws/build/send_goals/cmake_install.cmake")
 
 endif()
 

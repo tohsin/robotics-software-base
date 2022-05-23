@@ -6,5 +6,9 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("get_map_data")
+subdirs("get_pose")
+subdirs("initialize_particles")
+subdirs("my_amcl_launcher")
 subdirs("my_mapping_launcher")
 subdirs("provide_map")
+subdirs("send_goals")
