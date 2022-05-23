@@ -1,0 +1,9 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+user         1  0.0  0.0   3980  2868 ?        Ss   11:26   0:00 /bin/bash -c sudo ln -sfv /opt/ros/noetic /opt/ros/latest; sleep infinity
+user         8  0.0  0.0   2512   520 ?        S    11:26   0:00 sleep infinity
+user       138  0.2  0.0   5816  4972 pts/1    Ss+  11:26   0:00 /bin/bash -c source /home/user/.bashrc;  export ROS_PACKAGE_PATH=/home/user/quiz_ws:$ROS_PACKAGE_PATH;  export ROS_HOSTNAME=2_quiz_correction;  export ROS_MASTER_URI=http://2_simulation:11311;  export DOCKER_HOST_IP_ADDRESS=172.31.45.137;  export SLOT_PREFIX=45e206af-6ead-4166-b01d-72082d069899;  roslaunch tests_quizes actions_quiz.launch --screen gui:=false  
+user       208  1.6  0.1 257436 29824 pts/1    Sl+  11:26   0:00 /usr/bin/python3 /opt/ros/noetic/bin/roslaunch tests_quizes actions_quiz.launch --screen gui:=false
+user       216  0.3  0.0   6060  5336 ?        Ss   11:26   0:00 bash /home/user/quiz_ws/Quizes/tests_quizes/scripts/actions_quiz.sh __name:=actions_quiz_node __log:=/home/user/.ros/log/04d07d20-d506-11ec-893c-0242ac190007/actions_quiz_node-1.log
+user       867  3.0  0.1 257180 29420 ?        Sl   11:26   0:00 /usr/bin/python3 /opt/ros/noetic/bin/roslaunch actions_quiz action_custom_msg.launch
+user       876 10.0  0.1 623892 27172 ?        Ssl  11:26   0:00 python /home/user/catkin_ws/src/actions_quiz/scripts/up_down_action.py __name:=action_custom_msg __log:=/home/user/.ros/log/04d07d20-d506-11ec-893c-0242ac190007/action_custom_msg-1.log
+user       887  0.0  0.0   5904  2980 ?        R    11:26   0:00 ps aux

@@ -2,6 +2,10 @@
 ```
 rostopic info /cmd_vel
 ```
+# creta pacjage
+```
+catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
+```
 
 # to see message detail
 ```
@@ -24,6 +28,11 @@ source devel/setup.bash
 # to view data transferred over a topic
 ```
 rostopic echo /counter
+```
+# View available services
+```
+rosservice list
+rosservice info /name_of_your_service
 ```
 
 # to create custom msg
@@ -56,4 +65,21 @@ generate_messages(
 <build_depend>message_generation</build_depend> 
 <build_export_depend>message_runtime</build_export_depend>
 <exec_depend>message_runtime</exec_depend>
+```
+
+# start action gui
+```
+rosrun actionlib_tools axclient.py /ardrone_action_server
+```
+# tools
+```
+rqt_console: http://wiki.ros.org/rqt_console
+
+rqt_plot: http://wiki.ros.org/rqt_plot
+
+rqt_graph: http://wiki.ros.org/rqt_graph
+
+Rosbag: http://wiki.ros.org/rosbag
+
+Rviz: http://wiki.ros.org/rviz
 ```

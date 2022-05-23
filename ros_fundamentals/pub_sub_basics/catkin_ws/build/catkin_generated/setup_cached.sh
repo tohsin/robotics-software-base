@@ -7,6 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export PKG_CONFIG_PATH="/home/user/catkin_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/user/catkin_ws/build'
-export PYTHONPATH="/home/user/catkin_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROS_PACKAGE_PATH='/home/user/catkin_ws/src:/home/simulations/public_sim_ws/src:/opt/ros/noetic/share'
